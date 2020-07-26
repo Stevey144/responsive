@@ -1,0 +1,308 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	background-color: #eee;
+}
+
+.container{
+	width: 1000px;
+	min-height: 400px;
+	background-color: #fff;
+	margin: auto;
+}
+
+.container .header{
+	width: 100%;
+	height: 100px;
+	padding: 15px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.container .header h1{
+	margin: 0;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.container .nav{
+	width: 100%;
+	height: 60px;
+	background-color: maroon;
+}
+
+.container .nav ul{
+	margin: 0;
+	list-style-type: none;
+}
+
+.container .nav ul li{
+	float: left;
+}
+
+.container .nav ul li a{
+	display: block;
+	padding: 7px 15px;
+	font-size: 18px;
+	color: #eee;
+}
+
+.container .mobile-nav{
+	width: 100%;
+	display: none;
+}
+
+.container .mobile-nav select{
+	width: 100%;
+	height: 100%;
+	background-color: maroon;
+	border: none;
+	padding: 15px;
+	font-size: 25px;
+	color: #eee;
+}
+
+.container .main{
+	width: 100%;
+	height: 300px;
+}
+
+.container .main .slider{
+	width: 65%;
+	display: inline-block;
+	background-image: url(ab1.jpg);
+	background-size: cover;
+	height: 100%;
+}
+
+.container .main .wel-text{
+	width: 34%;
+	height: 100%;
+	padding: 0 25px;
+	display: inline-block;
+}
+
+.container .widget{
+	width: 100%;
+	min-height: 250px;
+	margin-top: 30px;
+}
+
+.container .widget .box{
+	width: 25%;
+	float: left;
+	height: 250px;
+}
+
+.container .widget .box:nth-child(1){
+	background-color: red;
+}
+
+.container .widget .box:nth-child(2){
+	background-color: purple;
+}
+
+.container .widget .box:nth-child(3){
+	background-color: powderblue;
+}
+
+.container .widget .box:nth-child(4){
+	background-color: brown;
+}
+
+.container .footer{
+	background-color: purple;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 580px){
+	.container{
+	width: 100%;
+	min-height: 400px;
+	background-color: #fff;
+}
+
+.container .mobile-nav{
+	width: 100%;
+	display: block;
+}
+
+.container .nav{
+	display: none;
+}
+
+.container .main{
+	width: 100%;
+}
+
+.container .main .slider{
+	display: none;
+}
+
+.container .main .wel-text{
+	width: 100%;
+}
+
+	.container .widget{
+	width: 100%;
+	min-height: 250px;
+	margin-top: 30px;
+}
+
+.container .widget .box{
+	width: 100%;
+	height: 250px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 581px) and (max-width: 650px){
+	.container{
+	width: 100%;
+	min-height: 400px;
+	background-color: #fff;
+}
+
+.container .mobile-nav{
+	width: 100%;
+	display: none;
+}
+
+.container .nav{
+	display: block;
+}
+
+.container .main{
+	width: 100%;
+}
+
+.container .main .slider{
+	display: none;
+}
+
+.container .main .wel-text{
+	width: 100%;
+}
+
+	.container .widget{
+	width: 100%;
+	min-height: 250px;
+	margin-top: 30px;
+}
+
+.container .widget .box{
+	width: 100%;
+	height: 250px;
+}	
+}
+
+
+@media only screen and (min-width: 651px) and (max-width: 800px){
+	.container{
+	width: 100%;
+	min-height: 400px;
+	background-color: #fff;
+}
+
+.container .mobile-nav{
+	width: 100%;
+	display: none;
+}
+
+.container .nav{
+	display: block;
+}
+
+.container .main{
+	width: 100%;
+	min-height:550px; 
+}
+
+.container .main .slider{
+	display: block;
+	width: 100%;
+	height: 250px;
+}
+
+.container .main .wel-text{
+	width: 100%;
+	min-height: 200px;
+}
+
+	.container .widget{
+	width: 100%;
+	min-height: 250px;
+	margin-top: 30px;
+}
+
+.container .widget .box{
+	width: 50%;
+	height: 250px;
+	float: left;
+}	
+
+.container .footer{
+	clear: both;
+}
+}
+
+
+@media only screen and (min-width: 801px) and (max-width: 999px){
+	.container{
+	width: 100%;
+	min-height: 400px;
+	background-color: #fff;
+}
+
+.container .mobile-nav{
+	width: 100%;
+	display: none;
+}
+
+.container .nav{
+	display: block;
+}
+
+.container .main{
+	width: 100%;
+	min-height:350px; 
+}
+
+.container .main .slider{
+	display: inline-block;
+	width: 65%;
+	height: 300px;
+	vertical-align: top;
+}
+
+.container .main .wel-text{
+	width: 34%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+	.container .widget{
+	width: 100%;
+	min-height: 250px;
+	margin-top: 30px;
+}
+
+.container .widget .box{
+	width: 25%;
+	height: 250px;
+	float: left;
+}	
+
+.container .footer{
+	clear: both;
+}
+}
